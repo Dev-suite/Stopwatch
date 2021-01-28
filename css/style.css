@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    padding: 30px;
+    text-align: center;
+    padding-top: 60px;
+    background-image: url(/img/top-bg.jpg);
+    height: 85.6vh;
+    background-position: center;
+}
+
+.timer {
+  font-size: 120px;
+}
+
+
+.minutes{
+    color: crimson;
+}
+
+.seconds{
+    color: blue;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    background-color: tomato;
+}
+
+.btn-success:hover{
+    background-color: blue;
+}
+
+.btn-danger:hover{
+    background-color: black;
+}
+
+.btn-block:hover{
+    background-color: crimson;
+}
+
